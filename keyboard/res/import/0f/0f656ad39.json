@@ -1,0 +1,2081 @@
+[
+  {
+    "__type__": "cc.Material",
+    "_name": "flat",
+    "_effectAsset": {
+      "__uuid__": "c2MjQxwmZMQo7Nvm6lQvYg"
+    },
+    "_defines": {
+      "USE_SPECULAR_TEXTURE": false,
+      "USE_SPECULAR": false
+    },
+    "_props": {}
+  },
+  [
+    {
+      "__type__": "cc.SceneAsset",
+      "_name": "main",
+      "scene": {
+        "__id__": 1
+      },
+      "asyncLoadAssets": null
+    },
+    {
+      "__type__": "cc.Scene",
+      "_name": "New Node",
+      "_children": [
+        {
+          "__id__": 2
+        },
+        {
+          "__id__": 23
+        }
+      ],
+      "_active": false,
+      "_anchorPoint": {
+        "__type__": "cc.Vec2"
+      },
+      "autoReleaseAssets": false
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Canvas",
+      "_parent": {
+        "__id__": 1
+      },
+      "_children": [
+        {
+          "__id__": 3
+        },
+        {
+          "__id__": 4
+        },
+        {
+          "__id__": 19
+        },
+        {
+          "__id__": 39
+        },
+        {
+          "__id__": 38
+        }
+      ],
+      "_level": 1,
+      "_components": [
+        {
+          "__type__": "cc.Canvas",
+          "node": {
+            "__id__": 2
+          }
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 960,
+        "height": 640
+      },
+      "_position": {
+        "__type__": "cc.Vec3",
+        "x": 480,
+        "y": 320
+      },
+      "groupIndex": 1,
+      "_id": "eedlG2RX1JjJSrxhnITlGv"
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Main Camera",
+      "_parent": {
+        "__id__": 2
+      },
+      "_level": 2,
+      "_components": [
+        {
+          "__type__": "cc.Camera",
+          "node": {
+            "__id__": 3
+          },
+          "_cullingMask": 2,
+          "_depth": 1000,
+          "_nearClip": 0.1
+        }
+      ],
+      "_position": {
+        "__type__": "cc.Vec3",
+        "z": 408.7639905862551
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "bg info",
+      "_parent": {
+        "__id__": 2
+      },
+      "_children": [
+        {
+          "__id__": 5
+        },
+        {
+          "__id__": 6
+        },
+        {
+          "__id__": 7
+        },
+        {
+          "__id__": 8
+        },
+        {
+          "__id__": 9
+        },
+        {
+          "__id__": 10
+        },
+        {
+          "__id__": 14
+        },
+        {
+          "__id__": 16
+        },
+        {
+          "__id__": 17
+        }
+      ],
+      "_level": 2,
+      "_components": [
+        {
+          "__type__": "cc.Widget",
+          "node": {
+            "__id__": 4
+          },
+          "_alignFlags": 1,
+          "_left": 480,
+          "_right": 480,
+          "_top": 20,
+          "_bottom": 320
+        }
+      ],
+      "_position": {
+        "__type__": "cc.Vec3",
+        "y": 300
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "the",
+      "_parent": {
+        "__id__": 4
+      },
+      "_level": 3,
+      "_components": [
+        {
+          "__type__": "cc.Label",
+          "node": {
+            "__id__": 5
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_useOriginalSize": false,
+          "_string": "the",
+          "_N$string": "the",
+          "_fontSize": 20,
+          "_lineHeight": 20,
+          "_N$horizontalAlign": 1,
+          "_N$verticalAlign": 1
+        }
+      ],
+      "_opacity": 150,
+      "_color": {
+        "__type__": "cc.Color",
+        "r": 214,
+        "g": 72,
+        "b": 59
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 27.8,
+        "height": 25.2
+      },
+      "_position": {
+        "__type__": "cc.Vec3",
+        "x": -45.41,
+        "y": -5.946
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "aviator",
+      "_parent": {
+        "__id__": 4
+      },
+      "_level": 3,
+      "_components": [
+        {
+          "__type__": "cc.Label",
+          "node": {
+            "__id__": 6
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_useOriginalSize": false,
+          "_string": "Aviator",
+          "_N$string": "Aviator",
+          "_fontSize": 60,
+          "_lineHeight": 60,
+          "_N$horizontalAlign": 1,
+          "_N$verticalAlign": 1
+        }
+      ],
+      "_opacity": 120,
+      "_color": {
+        "__type__": "cc.Color",
+        "r": 209,
+        "g": 67,
+        "b": 54
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 185.65,
+        "height": 75.6
+      },
+      "_position": {
+        "__type__": "cc.Vec3",
+        "y": -38.485
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "info",
+      "_parent": {
+        "__id__": 4
+      },
+      "_level": 3,
+      "_components": [
+        {
+          "__type__": "cc.Label",
+          "node": {
+            "__id__": 7
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_string": "F L Y   I T   T O   T H E   E N D",
+          "_N$string": "F L Y   I T   T O   T H E   E N D",
+          "_fontSize": 20,
+          "_lineHeight": 20
+        }
+      ],
+      "_color": {
+        "__type__": "cc.Color",
+        "r": 209,
+        "g": 67,
+        "b": 54
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 275.59,
+        "height": 25.2
+      },
+      "_position": {
+        "__type__": "cc.Vec3",
+        "y": -90.987
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "distance",
+      "_parent": {
+        "__id__": 4
+      },
+      "_level": 3,
+      "_components": [
+        {
+          "__type__": "cc.Label",
+          "node": {
+            "__id__": 8
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_useOriginalSize": false,
+          "_string": "DISTANCE",
+          "_N$string": "DISTANCE",
+          "_fontSize": 20,
+          "_lineHeight": 20,
+          "_N$horizontalAlign": 1,
+          "_N$verticalAlign": 1
+        }
+      ],
+      "_opacity": 130,
+      "_color": {
+        "__type__": "cc.Color",
+        "r": 209,
+        "g": 67,
+        "b": 54
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 99.64,
+        "height": 25.2
+      },
+      "_position": {
+        "__type__": "cc.Vec3",
+        "x": -6.846,
+        "y": -127.345
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "energy",
+      "_parent": {
+        "__id__": 4
+      },
+      "_level": 3,
+      "_components": [
+        {
+          "__type__": "cc.Label",
+          "node": {
+            "__id__": 9
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_useOriginalSize": false,
+          "_string": "ENERGY",
+          "_N$string": "ENERGY",
+          "_fontSize": 20,
+          "_lineHeight": 20,
+          "_N$horizontalAlign": 1,
+          "_N$verticalAlign": 1
+        }
+      ],
+      "_opacity": 130,
+      "_color": {
+        "__type__": "cc.Color",
+        "r": 209,
+        "g": 67,
+        "b": 54
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 84.46,
+        "height": 25.2
+      },
+      "_position": {
+        "__type__": "cc.Vec3",
+        "x": 118.176,
+        "y": -127.345
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "energy bar",
+      "_parent": {
+        "__id__": 4
+      },
+      "_children": [
+        {
+          "__id__": 11
+        }
+      ],
+      "_level": 3,
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 10
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_spriteFrame": {
+            "__uuid__": "675ovJ2tVK2aLYfgPUWOMv"
+          },
+          "_type": 1,
+          "_sizeMode": 0
+        },
+        {
+          "__id__": 13
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 80,
+        "height": 5
+      },
+      "_anchorPoint": {
+        "__type__": "cc.Vec2",
+        "y": 0.5
+      },
+      "_position": {
+        "__type__": "cc.Vec3",
+        "x": 78.277,
+        "y": -158.33
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "bar",
+      "_parent": {
+        "__id__": 10
+      },
+      "_components": [
+        {
+          "__id__": 12
+        }
+      ],
+      "_opacity": 130,
+      "_color": {
+        "__type__": "cc.Color",
+        "r": 209,
+        "g": 67,
+        "b": 54
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 80,
+        "height": 5
+      },
+      "_anchorPoint": {
+        "__type__": "cc.Vec2",
+        "y": 0.5
+      }
+    },
+    {
+      "__type__": "cc.Sprite",
+      "node": {
+        "__id__": 11
+      },
+      "_materials": [
+        {
+          "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+        }
+      ],
+      "_spriteFrame": {
+        "__uuid__": "675ovJ2tVK2aLYfgPUWOMv"
+      },
+      "_type": 1,
+      "_sizeMode": 0
+    },
+    {
+      "__type__": "cc.ProgressBar",
+      "node": {
+        "__id__": 10
+      },
+      "_N$totalLength": 80,
+      "_N$barSprite": {
+        "__id__": 12
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "distance number",
+      "_parent": {
+        "__id__": 4
+      },
+      "_level": 3,
+      "_components": [
+        {
+          "__id__": 15
+        }
+      ],
+      "_opacity": 130,
+      "_color": {
+        "__type__": "cc.Color",
+        "r": 209,
+        "g": 67,
+        "b": 54
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 11.12,
+        "height": 25.2
+      },
+      "_position": {
+        "__type__": "cc.Vec3",
+        "x": -6.846,
+        "y": -158.33
+      }
+    },
+    {
+      "__type__": "cc.Label",
+      "node": {
+        "__id__": 14
+      },
+      "_materials": [
+        {
+          "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+        }
+      ],
+      "_useOriginalSize": false,
+      "_string": "0",
+      "_N$string": "0",
+      "_fontSize": 20,
+      "_lineHeight": 20,
+      "_N$horizontalAlign": 1,
+      "_N$verticalAlign": 1
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "level",
+      "_parent": {
+        "__id__": 4
+      },
+      "_level": 3,
+      "_components": [
+        {
+          "__type__": "cc.Label",
+          "node": {
+            "__id__": 16
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_useOriginalSize": false,
+          "_string": "LEVEL",
+          "_N$string": "LEVEL",
+          "_fontSize": 20,
+          "_lineHeight": 20,
+          "_N$horizontalAlign": 1,
+          "_N$verticalAlign": 1
+        }
+      ],
+      "_opacity": 130,
+      "_color": {
+        "__type__": "cc.Color",
+        "r": 209,
+        "g": 67,
+        "b": 54
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 62.27,
+        "height": 25.2
+      },
+      "_position": {
+        "__type__": "cc.Vec3",
+        "x": -140.363,
+        "y": -127.345
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "level number",
+      "_parent": {
+        "__id__": 4
+      },
+      "_level": 3,
+      "_components": [
+        {
+          "__id__": 18
+        }
+      ],
+      "_opacity": 130,
+      "_color": {
+        "__type__": "cc.Color",
+        "r": 209,
+        "g": 67,
+        "b": 54
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 11.12,
+        "height": 25.2
+      },
+      "_position": {
+        "__type__": "cc.Vec3",
+        "x": -140.363,
+        "y": -158.33
+      }
+    },
+    {
+      "__type__": "cc.Label",
+      "node": {
+        "__id__": 17
+      },
+      "_materials": [
+        {
+          "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+        }
+      ],
+      "_useOriginalSize": false,
+      "_string": "0",
+      "_N$string": "0",
+      "_fontSize": 20,
+      "_lineHeight": 20,
+      "_N$horizontalAlign": 1,
+      "_N$verticalAlign": 1
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "btn_start",
+      "_parent": {
+        "__id__": 2
+      },
+      "_children": [
+        {
+          "__id__": 20
+        }
+      ],
+      "_active": false,
+      "_level": 2,
+      "_components": [
+        {
+          "__type__": "cc.Button",
+          "node": {
+            "__id__": 19
+          },
+          "zoomScale": 1.1,
+          "clickEvents": [
+            {
+              "__type__": "cc.ClickEvent",
+              "target": {
+                "__id__": 23
+              },
+              "_componentId": "b201btp/JxCdaQYiSCLDnTl",
+              "handler": "onToggleGame"
+            }
+          ],
+          "_N$transition": 3,
+          "transition": 3,
+          "_N$normalColor": {
+            "__type__": "cc.Color",
+            "r": 230,
+            "g": 230,
+            "b": 230
+          },
+          "_N$pressedColor": {
+            "__type__": "cc.Color",
+            "r": 200,
+            "g": 200,
+            "b": 200
+          },
+          "pressedColor": {
+            "__type__": "cc.Color",
+            "r": 200,
+            "g": 200,
+            "b": 200
+          },
+          "_N$disabledColor": {
+            "__type__": "cc.Color",
+            "r": 120,
+            "g": 120,
+            "b": 120,
+            "a": 200
+          },
+          "_N$normalSprite": {
+            "__uuid__": "f0BIwQ8D5Ml7nTNQbh1YlS"
+          },
+          "_N$pressedSprite": {
+            "__uuid__": "e97GVMl6JHh5Ml5qEDdSGa"
+          },
+          "pressedSprite": {
+            "__uuid__": "e97GVMl6JHh5Ml5qEDdSGa"
+          },
+          "_N$hoverSprite": {
+            "__uuid__": "f0BIwQ8D5Ml7nTNQbh1YlS"
+          },
+          "hoverSprite": {
+            "__uuid__": "f0BIwQ8D5Ml7nTNQbh1YlS"
+          },
+          "_N$disabledSprite": {
+            "__uuid__": "29FYIk+N1GYaeWH/q1NxQO"
+          },
+          "_N$target": {
+            "__id__": 20
+          }
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 150,
+        "height": 60
+      },
+      "_position": {
+        "__type__": "cc.Vec3",
+        "x": -200,
+        "y": -208
+      },
+      "groupIndex": 1
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Background",
+      "_parent": {
+        "__id__": 19
+      },
+      "_children": [
+        {
+          "__id__": 21
+        }
+      ],
+      "_level": 2,
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 20
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_spriteFrame": {
+            "__uuid__": "f0BIwQ8D5Ml7nTNQbh1YlS"
+          },
+          "_type": 1,
+          "_sizeMode": 0
+        },
+        {
+          "__type__": "cc.Widget",
+          "node": {
+            "__id__": 20
+          },
+          "alignMode": 0,
+          "_alignFlags": 45,
+          "_originalWidth": 100,
+          "_originalHeight": 40
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 150,
+        "height": 60
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "lbl_start",
+      "_parent": {
+        "__id__": 20
+      },
+      "_level": 3,
+      "_components": [
+        {
+          "__id__": 22
+        }
+      ],
+      "_color": {
+        "__type__": "cc.Color"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 100,
+        "height": 40
+      }
+    },
+    {
+      "__type__": "cc.Label",
+      "node": {
+        "__id__": 21
+      },
+      "_materials": [
+        {
+          "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+        }
+      ],
+      "_useOriginalSize": false,
+      "_string": "Start",
+      "_N$string": "Start",
+      "_fontSize": 20,
+      "_enableWrapText": false,
+      "_N$horizontalAlign": 1,
+      "_N$verticalAlign": 1,
+      "_N$overflow": 1
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "game",
+      "_parent": {
+        "__id__": 1
+      },
+      "_children": [
+        {
+          "__id__": 24
+        },
+        {
+          "__id__": 28
+        },
+        {
+          "__id__": 30
+        },
+        {
+          "__id__": 37
+        }
+      ],
+      "_level": 1,
+      "_components": [
+        {
+          "__type__": "f8bd8ThP5VFOrMtn2xMutCw",
+          "node": {
+            "__id__": 23
+          },
+          "_ambient": {
+            "__type__": "cc.Color",
+            "r": 220,
+            "g": 136,
+            "b": 116
+          }
+        },
+        {
+          "__type__": "b201btp/JxCdaQYiSCLDnTl",
+          "node": {
+            "__id__": 23
+          },
+          "world": {
+            "__id__": 24
+          },
+          "ratioSpeedDistance": 1,
+          "material": {
+            "__uuid__": "04dKqMWpZIOLaWSFMPOI1v"
+          },
+          "distanceLabel": {
+            "__id__": 15
+          },
+          "levelLabel": {
+            "__id__": 18
+          },
+          "energyProgress": {
+            "__id__": 13
+          },
+          "energy": 5,
+          "player": {
+            "__id__": 30
+          },
+          "enemyManager": {
+            "__id__": 26
+          },
+          "lbl_start": {
+            "__id__": 22
+          },
+          "hit": {
+            "__id__": 38
+          }
+        }
+      ],
+      "_is3DNode": true,
+      "_id": "d5MaaR/udFVrq+GJuqt3Xk"
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "world",
+      "_parent": {
+        "__id__": 23
+      },
+      "_children": [
+        {
+          "__id__": 25
+        },
+        {
+          "__id__": 26
+        },
+        {
+          "__id__": 27
+        }
+      ],
+      "_level": 2,
+      "_position": {
+        "__type__": "cc.Vec3",
+        "y": -600
+      },
+      "_is3DNode": true
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "sea",
+      "_parent": {
+        "__id__": 24
+      },
+      "_level": 3,
+      "_components": [
+        {
+          "__type__": "cc.MeshRenderer",
+          "node": {
+            "__id__": 25
+          },
+          "_materials": [
+            {
+              "__uuid__": "04dKqMWpZIOLaWSFMPOI1v"
+            }
+          ],
+          "_receiveShadows": true
+        },
+        {
+          "__type__": "44dc5bGoJVG973D/qrBQr94",
+          "node": {
+            "__id__": 25
+          },
+          "_N$color": {
+            "__type__": "cc.Color",
+            "r": 129,
+            "g": 194,
+            "b": 194
+          },
+          "_N$radiusTop": 600,
+          "_N$radiusBottom": 600,
+          "_N$height": 800,
+          "_N$heightSegments": 10
+        },
+        {
+          "__type__": "786dftT62NLJKOjBpXgOP5B",
+          "node": {
+            "__id__": 25
+          },
+          "rotateSpeed": 45,
+          "wavesMinSpeed": 1,
+          "wavesMaxSpeed": 3
+        }
+      ],
+      "_eulerAngles": {
+        "__type__": "cc.Vec3",
+        "x": -89.99999999999999
+      },
+      "_is3DNode": true
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "enemies",
+      "_parent": {
+        "__id__": 24
+      },
+      "_level": 3,
+      "_components": [
+        {
+          "__type__": "09ddf+1UthOJqlpZy+ajb5j",
+          "node": {
+            "__id__": 26
+          },
+          "enemyColor": {
+            "__type__": "cc.Color",
+            "r": 242,
+            "g": 83,
+            "b": 70
+          },
+          "rotateSpeed": 45
+        }
+      ],
+      "_is3DNode": true
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "sky",
+      "_parent": {
+        "__id__": 24
+      },
+      "_level": 3,
+      "_components": [
+        {
+          "__type__": "857eaB/7qJL5YogoKjv/zE1",
+          "node": {
+            "__id__": 27
+          },
+          "cloudColor": {
+            "__type__": "cc.Color",
+            "r": 216,
+            "g": 208,
+            "b": 209
+          },
+          "rotateSpeed": 45
+        }
+      ],
+      "_is3DNode": true
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "camera",
+      "_parent": {
+        "__id__": 23
+      },
+      "_level": 2,
+      "_components": [
+        {
+          "__id__": 29
+        }
+      ],
+      "_position": {
+        "__type__": "cc.Vec3",
+        "y": 100,
+        "z": 200
+      },
+      "_is3DNode": true
+    },
+    {
+      "__type__": "cc.Camera",
+      "node": {
+        "__id__": 28
+      },
+      "_cullingMask": -3,
+      "_clearFlags": 7,
+      "_backgroundColor": {
+        "__type__": "cc.Color",
+        "r": 247,
+        "g": 217,
+        "b": 170
+      },
+      "_depth": -1,
+      "_orthoSize": 800,
+      "_ortho": false
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "airplane",
+      "_parent": {
+        "__id__": 23
+      },
+      "_children": [
+        {
+          "__id__": 31
+        },
+        {
+          "__id__": 32
+        },
+        {
+          "__id__": 33
+        },
+        {
+          "__id__": 34
+        },
+        {
+          "__id__": 35
+        }
+      ],
+      "_level": 2,
+      "_components": [
+        {
+          "__type__": "d53b1LPmLJOtL/2J/ZOSrA7",
+          "node": {
+            "__id__": 30
+          },
+          "moveSensivity": 3,
+          "rotXSensivity": 0.4,
+          "rotZSensivity": 20,
+          "camera": {
+            "__id__": 29
+          }
+        }
+      ],
+      "_position": {
+        "__type__": "cc.Vec3",
+        "y": 100
+      },
+      "_scale": {
+        "__type__": "cc.Vec3",
+        "x": 0.25,
+        "y": 0.25,
+        "z": 0.25
+      },
+      "_is3DNode": true,
+      "groupIndex": 2
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "cabin",
+      "_parent": {
+        "__id__": 30
+      },
+      "_level": 3,
+      "_components": [
+        {
+          "__type__": "cc.MeshRenderer",
+          "node": {
+            "__id__": 31
+          },
+          "_materials": [
+            {
+              "__uuid__": "04dKqMWpZIOLaWSFMPOI1v"
+            }
+          ],
+          "_shadowCastingMode": 1
+        },
+        {
+          "__type__": "a70270Fvd9Mn66Upk302M+8",
+          "node": {
+            "__id__": 31
+          },
+          "_N$color": {
+            "__type__": "cc.Color",
+            "r": 242,
+            "g": 83,
+            "b": 70
+          },
+          "_N$width": 60,
+          "_N$height": 50,
+          "_N$length": 50
+        }
+      ],
+      "_is3DNode": true
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "engine",
+      "_parent": {
+        "__id__": 30
+      },
+      "_level": 3,
+      "_components": [
+        {
+          "__type__": "cc.MeshRenderer",
+          "node": {
+            "__id__": 32
+          },
+          "_materials": [
+            {
+              "__uuid__": "04dKqMWpZIOLaWSFMPOI1v"
+            }
+          ],
+          "_shadowCastingMode": 1
+        },
+        {
+          "__type__": "a70270Fvd9Mn66Upk302M+8",
+          "node": {
+            "__id__": 32
+          },
+          "_N$color": {
+            "__type__": "cc.Color",
+            "r": 216,
+            "g": 208,
+            "b": 209
+          },
+          "_N$width": 20,
+          "_N$height": 50,
+          "_N$length": 50
+        }
+      ],
+      "_position": {
+        "__type__": "cc.Vec3",
+        "x": 40
+      },
+      "_is3DNode": true
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "tail",
+      "_parent": {
+        "__id__": 30
+      },
+      "_level": 3,
+      "_components": [
+        {
+          "__type__": "cc.MeshRenderer",
+          "node": {
+            "__id__": 33
+          },
+          "_materials": [
+            {
+              "__uuid__": "04dKqMWpZIOLaWSFMPOI1v"
+            }
+          ],
+          "_shadowCastingMode": 1
+        },
+        {
+          "__type__": "a70270Fvd9Mn66Upk302M+8",
+          "node": {
+            "__id__": 33
+          },
+          "_N$color": {
+            "__type__": "cc.Color",
+            "r": 242,
+            "g": 83,
+            "b": 70
+          },
+          "_N$width": 15,
+          "_N$height": 20,
+          "_N$length": 5
+        }
+      ],
+      "_position": {
+        "__type__": "cc.Vec3",
+        "x": -35,
+        "y": 25
+      },
+      "_is3DNode": true
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "wing",
+      "_parent": {
+        "__id__": 30
+      },
+      "_level": 3,
+      "_components": [
+        {
+          "__type__": "cc.MeshRenderer",
+          "node": {
+            "__id__": 34
+          },
+          "_materials": [
+            {
+              "__uuid__": "04dKqMWpZIOLaWSFMPOI1v"
+            }
+          ],
+          "_shadowCastingMode": 1
+        },
+        {
+          "__type__": "a70270Fvd9Mn66Upk302M+8",
+          "node": {
+            "__id__": 34
+          },
+          "_N$color": {
+            "__type__": "cc.Color",
+            "r": 242,
+            "g": 83,
+            "b": 70
+          },
+          "_N$width": 40,
+          "_N$height": 8,
+          "_N$length": 150
+        }
+      ],
+      "_is3DNode": true
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "propeller",
+      "_parent": {
+        "__id__": 30
+      },
+      "_children": [
+        {
+          "__id__": 36
+        }
+      ],
+      "_level": 3,
+      "_components": [
+        {
+          "__type__": "cc.MeshRenderer",
+          "node": {
+            "__id__": 35
+          },
+          "_materials": [
+            {
+              "__uuid__": "04dKqMWpZIOLaWSFMPOI1v"
+            }
+          ],
+          "_shadowCastingMode": 1
+        },
+        {
+          "__type__": "a70270Fvd9Mn66Upk302M+8",
+          "node": {
+            "__id__": 35
+          },
+          "_N$color": {
+            "__type__": "cc.Color",
+            "r": 89,
+            "g": 51,
+            "b": 46
+          },
+          "_N$width": 20,
+          "_N$height": 10,
+          "_N$length": 10
+        },
+        {
+          "__type__": "cb92dR/FtVI558n2xXaixEz",
+          "node": {
+            "__id__": 35
+          },
+          "rotateSpeed": 1800
+        }
+      ],
+      "_position": {
+        "__type__": "cc.Vec3",
+        "x": 50
+      },
+      "_is3DNode": true
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "blade",
+      "_parent": {
+        "__id__": 35
+      },
+      "_level": 4,
+      "_components": [
+        {
+          "__type__": "cc.MeshRenderer",
+          "node": {
+            "__id__": 36
+          },
+          "_materials": [
+            {
+              "__uuid__": "04dKqMWpZIOLaWSFMPOI1v"
+            }
+          ],
+          "_shadowCastingMode": 1
+        },
+        {
+          "__type__": "a70270Fvd9Mn66Upk302M+8",
+          "node": {
+            "__id__": 36
+          },
+          "_N$color": {
+            "__type__": "cc.Color",
+            "r": 35,
+            "g": 25,
+            "b": 15
+          },
+          "_N$width": 1,
+          "_N$length": 20
+        }
+      ],
+      "_position": {
+        "__type__": "cc.Vec3",
+        "x": 8
+      },
+      "_is3DNode": true
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "light",
+      "_parent": {
+        "__id__": 23
+      },
+      "_level": 2,
+      "_components": [
+        {
+          "__type__": "cc.Light",
+          "node": {
+            "__id__": 37
+          },
+          "_intensity": 0.9,
+          "_range": 1000,
+          "_shadowType": 1,
+          "_shadowMaxDepth": 1000,
+          "_shadowFrustumSize": 1000
+        }
+      ],
+      "_position": {
+        "__type__": "cc.Vec3",
+        "x": 150,
+        "y": 350,
+        "z": 350
+      },
+      "_eulerAngles": {
+        "__type__": "cc.Vec3",
+        "x": -45,
+        "y": 20,
+        "z": -1.5902773407317584e-15
+      },
+      "_is3DNode": true
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "hitMask",
+      "_parent": {
+        "__id__": 2
+      },
+      "_active": false,
+      "_level": 2,
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 38
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_spriteFrame": {
+            "__uuid__": "a2MjXRFdtLlYQ5ouAFv/+R"
+          },
+          "_sizeMode": 0
+        },
+        {
+          "__type__": "cc.Widget",
+          "node": {
+            "__id__": 38
+          },
+          "alignMode": 0,
+          "_alignFlags": 45,
+          "_originalWidth": 100,
+          "_originalHeight": 100
+        }
+      ],
+      "_opacity": 99,
+      "_color": {
+        "__type__": "cc.Color",
+        "r": 255
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 960,
+        "height": 640
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "btn_jump",
+      "_parent": {
+        "__id__": 2
+      },
+      "_children": [
+        {
+          "__id__": 40
+        }
+      ],
+      "_active": false,
+      "_level": 2,
+      "_components": [
+        {
+          "__type__": "cc.Button",
+          "node": {
+            "__id__": 39
+          },
+          "zoomScale": 1.1,
+          "clickEvents": [
+            {
+              "__type__": "cc.ClickEvent",
+              "target": {
+                "__id__": 30
+              },
+              "_componentId": "d53b1LPmLJOtL/2J/ZOSrA7",
+              "handler": "onJump"
+            }
+          ],
+          "_N$transition": 3,
+          "transition": 3,
+          "_N$normalColor": {
+            "__type__": "cc.Color",
+            "r": 230,
+            "g": 230,
+            "b": 230
+          },
+          "_N$pressedColor": {
+            "__type__": "cc.Color",
+            "r": 200,
+            "g": 200,
+            "b": 200
+          },
+          "pressedColor": {
+            "__type__": "cc.Color",
+            "r": 200,
+            "g": 200,
+            "b": 200
+          },
+          "_N$disabledColor": {
+            "__type__": "cc.Color",
+            "r": 120,
+            "g": 120,
+            "b": 120,
+            "a": 200
+          },
+          "_N$normalSprite": {
+            "__uuid__": "f0BIwQ8D5Ml7nTNQbh1YlS"
+          },
+          "_N$pressedSprite": {
+            "__uuid__": "e97GVMl6JHh5Ml5qEDdSGa"
+          },
+          "pressedSprite": {
+            "__uuid__": "e97GVMl6JHh5Ml5qEDdSGa"
+          },
+          "_N$hoverSprite": {
+            "__uuid__": "f0BIwQ8D5Ml7nTNQbh1YlS"
+          },
+          "hoverSprite": {
+            "__uuid__": "f0BIwQ8D5Ml7nTNQbh1YlS"
+          },
+          "_N$disabledSprite": {
+            "__uuid__": "29FYIk+N1GYaeWH/q1NxQO"
+          },
+          "_N$target": {
+            "__id__": 40
+          }
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 150,
+        "height": 60
+      },
+      "_position": {
+        "__type__": "cc.Vec3",
+        "x": 200,
+        "y": -208
+      },
+      "groupIndex": 1
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Background",
+      "_parent": {
+        "__id__": 39
+      },
+      "_children": [
+        {
+          "__id__": 41
+        }
+      ],
+      "_level": 2,
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 40
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_spriteFrame": {
+            "__uuid__": "f0BIwQ8D5Ml7nTNQbh1YlS"
+          },
+          "_type": 1,
+          "_sizeMode": 0
+        },
+        {
+          "__type__": "cc.Widget",
+          "node": {
+            "__id__": 40
+          },
+          "alignMode": 0,
+          "_alignFlags": 45,
+          "_originalWidth": 100,
+          "_originalHeight": 40
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 150,
+        "height": 60
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "lbl_jump",
+      "_parent": {
+        "__id__": 40
+      },
+      "_level": 3,
+      "_components": [
+        {
+          "__type__": "cc.Label",
+          "node": {
+            "__id__": 41
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_useOriginalSize": false,
+          "_string": "Jump",
+          "_N$string": "Jump",
+          "_fontSize": 20,
+          "_enableWrapText": false,
+          "_N$horizontalAlign": 1,
+          "_N$verticalAlign": 1,
+          "_N$overflow": 1
+        }
+      ],
+      "_color": {
+        "__type__": "cc.Color"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 100,
+        "height": 40
+      }
+    }
+  ],
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "default_btn_disabled",
+      "texture": "71VhFCTINJM6/Ky3oX9nBT",
+      "rect": [
+        0,
+        0,
+        40,
+        40
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        40,
+        40
+      ],
+      "capInsets": [
+        12,
+        12,
+        12,
+        12
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "default_progressbar",
+      "texture": "cf73jxyN9Jt47QTJU6ziYh",
+      "rect": [
+        0,
+        0,
+        30,
+        15
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        30,
+        15
+      ],
+      "capInsets": [
+        10,
+        4,
+        10,
+        4
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "default_sprite_splash",
+      "texture": "02delMVqdBD70a/HSD99FK",
+      "rect": [
+        0,
+        0,
+        2,
+        2
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        2,
+        2
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.EffectAsset",
+    "_name": "flat",
+    "properties": {
+      "mainTiling": {
+        "type": 5,
+        "value": [
+          1,
+          1
+        ]
+      },
+      "mainOffset": {
+        "type": 5,
+        "value": [
+          0,
+          0
+        ]
+      },
+      "diffuseColor": {
+        "type": 9,
+        "value": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "diffuseTexture": {
+        "type": 13,
+        "value": null
+      },
+      "glossiness": {
+        "type": 4,
+        "value": 10
+      }
+    },
+    "techniques": [
+      {
+        "passes": [
+          {
+            "cullMode": 1029,
+            "depthTest": true,
+            "depthWrite": true,
+            "blend": true,
+            "program": "ce018fd1f99124798d93168c48e94ad67e56e83d7b0828d85afd74e9"
+          }
+        ],
+        "stages": [
+          "opaque"
+        ],
+        "queue": 0,
+        "priority": 0
+      },
+      {
+        "stages": [
+          "shadowcast"
+        ],
+        "passes": [
+          {
+            "cullMode": 1029,
+            "depthTest": true,
+            "depthWrite": true,
+            "program": "9a91382f3710c7bfc6b1ac208fac93945dd4609a0e76c9995e1601fd"
+          }
+        ],
+        "queue": 0,
+        "priority": 0
+      }
+    ],
+    "shaders": [
+      {
+        "vert": "\n#define _IS_VERT_SHADER 1\n\nprecision highp float;\n\nuniform mat4 cc_matWorld;\nuniform mat3 cc_matWorldIT;\n\nuniform mat4 cc_matView;\n\nuniform mat4 cc_matViewProj;\n\nuniform vec3 cc_cameraPos;                       \n\nuniform vec3 cc_sceneAmbient;                    \n\nvarying vec3 v_worldPos;\nvarying vec3 v_viewPos;\n\n#ifndef USE_DIFFUSE_TEXTURE\n  #ifndef USE_EMISSIVE_TEXTURE\n    #ifndef USE_SPECULAR_TEXTURE\n      #ifndef USE_NORMAL_TEXTURE\n        #define _NOT_USE_TEXTURE 1\n      #endif\n    #endif\n  #endif\n#endif\n\n#if USE_TILING_OFFSET && _USE_ATTRIBUTE_UV0\n  uniform vec2 mainTiling;\n  uniform vec2 mainOffset;\n#endif\n\n#ifdef _IS_VERT_SHADER\n  attribute vec3 a_position;\n#endif\n\n#ifndef _NOT_USE_TEXTURE\n\n  #if _USE_ATTRIBUTE_UV0\n    #ifdef _IS_VERT_SHADER\n      attribute mediump vec2 a_uv0;\n    #endif\n\n    varying mediump vec2 v_uv0;\n  #endif\n\n#endif\n\n#if _USE_ATTRIBUTE_COLOR\n\n  #ifdef _IS_VERT_SHADER\n    attribute lowp vec4 a_color;\n  #endif\n\n  varying lowp vec4 v_color;\n#endif\n\n#if _USE_ATTRIBUTE_NORMAL\n  #ifdef _IS_VERT_SHADER\n    attribute vec3 a_normal;\n  #endif\n#endif\n\n#ifdef _IS_VERT_SHADER\n\n  void ATTRIBUTE_TO_VARYING () {\n\n    #if _USE_ATTRIBUTE_COLOR\n        v_color = a_color;\n    #endif\n\n    #ifndef _NOT_USE_TEXTURE\n      #if _USE_ATTRIBUTE_UV0\n        v_uv0 = a_uv0;\n\n        #if USE_TILING_OFFSET\n          v_uv0 = v_uv0 * mainTiling + mainOffset;\n        #endif\n      #endif\n    #endif\n\n  }\n\n#endif\n\nvoid MUL_ATTR_COLOR (inout vec4 color) {\n  #if _USE_ATTRIBUTE_COLOR\n    #ifdef _IS_VERT_SHADER\n      color *= a_color;\n    #else\n      color *= v_color;\n    #endif\n  #endif\n}\n\nvoid MUL_ATTR_NORMAL (inout vec3 normal) {\n  #if _USE_ATTRIBUTE_NORMAL\n    #ifdef _IS_VERT_SHADER\n      normal *= a_normal;\n    #endif\n  #endif\n}\nvoid MUL_ATTR_NORMAL (inout vec4 normal) {\n  #if _USE_ATTRIBUTE_NORMAL\n    #ifdef _IS_VERT_SHADER\n      normal.xyz *= a_normal;\n    #endif\n  #endif\n}\n\n \n#if _USE_SHADOW_MAP\n  #if _NUM_SHADOW_LIGHTS > 0\n    #pragma for id in range(0, _NUM_SHADOW_LIGHTS)\n      uniform mat4 cc_lightViewProjMatrix_{id};\n      uniform float cc_minDepth_{id};\n      uniform float cc_maxDepth_{id};\n      varying vec4 v_posLightSpace{id};\n      varying float v_depth{id};\n    #pragma endFor\n  #endif\n#endif\n\nvoid CLAC_SHADOW () {\n  #if _USE_SHADOW_MAP\n    #if _NUM_SHADOW_LIGHTS > 0\n      #pragma for id in range(0, _NUM_SHADOW_LIGHTS)\n        v_posLightSpace{id} = cc_lightViewProjMatrix_{id} * vec4(v_worldPos, 1.0);\n        v_depth{id} = (v_posLightSpace{id}.z + cc_minDepth_{id}) / (cc_minDepth_{id} + cc_maxDepth_{id});\n      #pragma endFor\n    #endif\n  #endif\n}\n\nvoid main () {\n  vec4 position = vec4(a_position, 1);\n\n  vec4 model = cc_matWorld * position;\n  v_worldPos = model.xyz;\n\n  v_viewPos = -(cc_matView * model).xyz;\n\n  CLAC_SHADOW();\n  ATTRIBUTE_TO_VARYING();\n  \n  gl_Position = cc_matViewProj * model;\n}\n\n\n",
+        "frag": "#extension GL_OES_standard_derivatives : enable\n#define _IS_FRAG_SHADER 1\n\nprecision highp float;\n\n\nuniform mat4 cc_matView;\n\nuniform mat4 cc_matViewProj;\n\nuniform vec3 cc_cameraPos;                       \n\nuniform vec3 cc_sceneAmbient;                    \n\n#ifndef USE_DIFFUSE_TEXTURE\n  #ifndef USE_EMISSIVE_TEXTURE\n    #ifndef USE_SPECULAR_TEXTURE\n      #ifndef USE_NORMAL_TEXTURE\n        #define _NOT_USE_TEXTURE 1\n      #endif\n    #endif\n  #endif\n#endif\n\n#if USE_TILING_OFFSET && _USE_ATTRIBUTE_UV0\n  uniform vec2 mainTiling;\n  uniform vec2 mainOffset;\n#endif\n\n#ifdef _IS_VERT_SHADER\n  attribute vec3 a_position;\n#endif\n\n#ifndef _NOT_USE_TEXTURE\n\n  #if _USE_ATTRIBUTE_UV0\n    #ifdef _IS_VERT_SHADER\n      attribute mediump vec2 a_uv0;\n    #endif\n\n    varying mediump vec2 v_uv0;\n  #endif\n\n#endif\n\n#if _USE_ATTRIBUTE_COLOR\n\n  #ifdef _IS_VERT_SHADER\n    attribute lowp vec4 a_color;\n  #endif\n\n  varying lowp vec4 v_color;\n#endif\n\n#if _USE_ATTRIBUTE_NORMAL\n  #ifdef _IS_VERT_SHADER\n    attribute vec3 a_normal;\n  #endif\n#endif\n\n#ifdef _IS_VERT_SHADER\n\n  void ATTRIBUTE_TO_VARYING () {\n\n    #if _USE_ATTRIBUTE_COLOR\n        v_color = a_color;\n    #endif\n\n    #ifndef _NOT_USE_TEXTURE\n      #if _USE_ATTRIBUTE_UV0\n        v_uv0 = a_uv0;\n\n        #if USE_TILING_OFFSET\n          v_uv0 = v_uv0 * mainTiling + mainOffset;\n        #endif\n      #endif\n    #endif\n\n  }\n\n#endif\n\nvoid MUL_ATTR_COLOR (inout vec4 color) {\n  #if _USE_ATTRIBUTE_COLOR\n    #ifdef _IS_VERT_SHADER\n      color *= a_color;\n    #else\n      color *= v_color;\n    #endif\n  #endif\n}\n\nvoid MUL_ATTR_NORMAL (inout vec3 normal) {\n  #if _USE_ATTRIBUTE_NORMAL\n    #ifdef _IS_VERT_SHADER\n      normal *= a_normal;\n    #endif\n  #endif\n}\nvoid MUL_ATTR_NORMAL (inout vec4 normal) {\n  #if _USE_ATTRIBUTE_NORMAL\n    #ifdef _IS_VERT_SHADER\n      normal.xyz *= a_normal;\n    #endif\n  #endif\n}\n\nvec3 gammaToLinearSpaceRGB(in vec3 sRGB) { \n  return sRGB * (sRGB * (sRGB * 0.305306011 + 0.682171111) + 0.012522878);\n}\n\nvec3 linearToGammaSpaceRGB(in vec3 RGB) { \n  vec3 S1 = sqrt(RGB);\n  vec3 S2 = sqrt(S1);\n  vec3 S3 = sqrt(S2);\n  return 0.585122381 * S1 + 0.783140355 * S2 - 0.368262736 * S3;\n}\n\nvec4 gammaToLinearSpaceRGBA(in vec4 sRGBA) {\n  return vec4(gammaToLinearSpaceRGB(sRGBA.rgb), sRGBA.a);\n}\n\nvec4 linearToGammaSpaceRGBA(in vec4 RGBA) {\n  return vec4(linearToGammaSpaceRGB(RGBA.rgb), RGBA.a);\n}\n\nvec4 linearToLinear (in vec4 value) {\n  return value;\n}\n\n#if INPUT_IS_GAMMA\n  #define TEXEL_TO_LINEAR gammaToLinearSpaceRGBA\n#else\n  #define TEXEL_TO_LINEAR linearToLinear\n#endif\n\n#if OUTPUT_TO_GAMMA\n  #define LINEAR_TO_OUTPUT_TEXEL linearToGammaSpaceRGBA\n#else\n  #define LINEAR_TO_OUTPUT_TEXEL linearToLinear\n#endif\n\nvarying vec3 v_worldPos;\nvarying vec3 v_viewPos;\n\nuniform lowp vec4 diffuseColor;\n\n#if USE_DIFFUSE_TEXTURE\n  uniform sampler2D diffuseTexture;\n#endif\n\nvoid MULTIPLY_DIFFUSE_TEXTRUE_COLOR (inout vec4 color, in vec2 uv) {\n  #if USE_DIFFUSE_TEXTURE && _USE_ATTRIBUTE_UV0\n    vec4 diffuseTextureColor = texture2D(diffuseTexture, uv);\n    #if _USE_ETC1_DIFFUSETEXTURE\n      diffuseTextureColor.a *= texture2D(diffuseTexture, uv + vec2(0, 0.5)).r;\n    #endif\n    color *= TEXEL_TO_LINEAR(diffuseTextureColor);\n  #endif\n}\n\nvoid MULTIPLY_DIFFUSE_TEXTRUE_COLOR (inout vec4 color) {\n  #if USE_DIFFUSE_TEXTURE && _USE_ATTRIBUTE_UV0\n    \n    #ifdef _IS_VERT_SHADER\n      vec2 uv = a_uv0;\n    #else\n      vec2 uv = v_uv0;\n    #endif\n\n    MULTIPLY_DIFFUSE_TEXTRUE_COLOR(color, uv);\n  #endif\n}\n\nvoid CALC_DIFFUSE (inout vec4 diffuse, in vec2 uv) {\n  diffuse = diffuseColor;\n\n  MUL_ATTR_COLOR(diffuse);\n  MULTIPLY_DIFFUSE_TEXTRUE_COLOR(diffuse, uv);\n}\n\nvoid CALC_DIFFUSE (inout vec4 diffuse) {\n  diffuse = diffuseColor;\n\n  MUL_ATTR_COLOR(diffuse);\n  MULTIPLY_DIFFUSE_TEXTRUE_COLOR(diffuse);\n}\n\n#if _USE_SHADOW_MAP\n  \n\nvec4 packDepthToRGBA(float depth) {\n  vec4 ret = vec4(1.0, 255.0, 65025.0, 160581375.0) * depth;\n  ret = fract(ret);\n  ret -= ret.yzww * vec4(1.0 / 255.0, 1.0 / 255.0, 1.0 / 255.0, 0.0);\n  return ret;\n}\n\nfloat unpackRGBAToDepth(vec4 color) {\n  return dot(color, vec4(1.0, 1.0 / 255.0, 1.0 / 65025.0, 1.0 / 160581375.0));\n}\n\n  #if _NUM_SHADOW_LIGHTS > 0\n    #pragma for id in range(0, _NUM_SHADOW_LIGHTS)\n      uniform sampler2D cc_shadowMap_{id};\n      uniform float cc_darkness_{id};\n      uniform float cc_depthScale_{id};\n      uniform float cc_frustumEdgeFalloff_{id};\n      varying vec4 v_posLightSpace{id};\n      varying float v_depth{id};\n    #pragma endFor\n  #endif\n\n  float computeFallOff(float esm, vec2 coords, float frustumEdgeFalloff) {\n    float mask = smoothstep(1.0 - frustumEdgeFalloff, 1.0, clamp(dot(coords, coords), 0.0, 1.0));\n    return mix(esm, 1.0, mask);\n  }\n\n  float computeShadowESM(sampler2D shadowMap, vec4 pos_lightspace, float vDepth, float depthScale, float darkness, float frustumEdgeFalloff) {\n    vec2 projCoords = pos_lightspace.xy / pos_lightspace.w;\n    vec2 shadowUV = projCoords * 0.5 + vec2(0.5);\n    if (shadowUV.x < 0.0 || shadowUV.x > 1.0 || shadowUV.y < 0.0 || shadowUV.y > 1.0) {\n      return 1.0;\n    }\n    float currentDepth = clamp(vDepth, 0.0, 1.0);\n    float closestDepth = unpackRGBAToDepth(texture2D(shadowMap, shadowUV));\n    \n    float esm = clamp(exp(-depthScale * (currentDepth - closestDepth)), 1.0 - darkness, 1.0);\n    return computeFallOff(esm, projCoords, frustumEdgeFalloff);\n  }\n\n  float computeShadow() {\n    float shadow = 1.0;\n    #if _NUM_SHADOW_LIGHTS > 0\n      #pragma for id in range(0, _NUM_SHADOW_LIGHTS)\n        shadow *= computeShadowESM(cc_shadowMap_{id}, v_posLightSpace{id}, v_depth{id}, cc_depthScale_{id}, cc_darkness_{id}, cc_frustumEdgeFalloff_{id});\n      #pragma endFor\n    #endif\n    return shadow;\n  }\n\n#endif\n\n#if _NUM_DIR_LIGHTS > 0\n  uniform vec4 cc_dirLightDirection[_NUM_DIR_LIGHTS];            \n  uniform vec4 cc_dirLightColor[_NUM_DIR_LIGHTS];                \n#endif\n\n#if _NUM_POINT_LIGHTS > 0\n  uniform vec4 cc_pointLightPositionAndRange[_NUM_POINT_LIGHTS];   \n  uniform vec4 cc_pointLightColor[_NUM_POINT_LIGHTS];              \n#endif\n\n#if _NUM_SPOT_LIGHTS > 0\n  uniform vec4 cc_spotLightPositionAndRange[_NUM_SPOT_LIGHTS];    \n  uniform vec4 cc_spotLightDirection[_NUM_SPOT_LIGHTS];           \n  uniform vec4 cc_spotLightColor[_NUM_SPOT_LIGHTS];               \n#endif\n\nstruct LightInfo {\n  vec3 lightDir;\n  vec3 radiance;\n};\n\nLightInfo computeDirectionalLighting(\n  vec4 lightDirection,\n  vec4 lightColor\n) {\n  LightInfo ret;\n  ret.lightDir = -normalize(lightDirection.xyz);\n  ret.radiance = lightColor.rgb;\n  return ret;\n}\n\nLightInfo computePointLighting(\n  vec3 worldPosition,\n  vec4 lightPositionAndRange,\n  vec4 lightColor\n) {\n  LightInfo ret;\n  vec3 lightDir = lightPositionAndRange.xyz - worldPosition;\n  float attenuation = max(0., 1.0 - length(lightDir) / lightPositionAndRange.w);\n  \n  ret.lightDir = normalize(lightDir);\n  ret.radiance = lightColor.rgb * attenuation;\n  return ret;\n}\n\nLightInfo computeSpotLighting(\n  vec3 worldPosition,\n  vec4 lightPositionAndRange,\n  vec4 lightDirection,\n  vec4 lightColor\n) {\n  LightInfo ret;\n  vec3 lightDir = lightPositionAndRange.xyz - worldPosition;\n  float attenuation = max(0., 1.0 - length(lightDir) / lightPositionAndRange.w);\n  lightDir = normalize(lightDir);\n  float cosConeAngle = max(0., dot(lightDirection.xyz, -lightDir));\n  cosConeAngle = cosConeAngle < lightDirection.w ? 0. : cosConeAngle;\n  cosConeAngle = pow(cosConeAngle, lightColor.w);\n  \n  ret.lightDir = lightDir;\n  ret.radiance = lightColor.rgb * attenuation * cosConeAngle;\n  return ret;\n}\n\nuniform float glossiness;\n\nstruct PhongMaterial {\n  vec3 diffuse;\n  vec3 emissive;\n  vec3 specular;\n  float opacity;\n};\n\nstruct Lighting {\n  vec3 diffuse;\n  vec3 specular;\n};\n\nvoid brdf (inout Lighting result, LightInfo info, vec3 normal, vec3 viewDirection, float glossiness) {\n  float ndh = 0.0;\n  \n  vec3 halfDir = normalize(viewDirection + info.lightDir);\n  float NdotH = max(0.0, dot(normal, halfDir));\n  NdotH = pow(NdotH, max(1.0, glossiness * 128.0));\n\n  vec3 diffuse = info.radiance * max(0.0, dot(normal, info.lightDir));\n  vec3 specular = info.radiance * NdotH;\n\n  result.diffuse += diffuse;\n  result.specular += specular;\n}\n\nLighting getPhongLighting (vec3 normal, vec3 worldPos, vec3 viewDirection, float glossiness) {\n  Lighting result;\n  result.diffuse = vec3(0, 0, 0);\n  result.specular = vec3(0, 0, 0);\n\n  #if _NUM_DIR_LIGHTS > 0\n  for (int i = 0; i < _NUM_DIR_LIGHTS; i++) {\n    LightInfo info = computeDirectionalLighting(cc_dirLightDirection[i], cc_dirLightColor[i]);\n    brdf(result, info, normal, viewDirection, glossiness);\n  }\n  #endif\n\n  #if _NUM_POINT_LIGHTS > 0\n  for (int i = 0; i < _NUM_POINT_LIGHTS; i++) {\n    LightInfo info = computePointLighting(worldPos, cc_pointLightPositionAndRange[i], cc_pointLightColor[i]);\n    brdf(result, info, normal, viewDirection, glossiness);\n  }\n  #endif\n\n  #if _NUM_SPOT_LIGHTS > 0\n  for (int i = 0; i < _NUM_SPOT_LIGHTS; i++) {\n    LightInfo info = computeSpotLighting(worldPos, cc_spotLightPositionAndRange[i], cc_spotLightDirection[i], cc_spotLightColor[i]);\n    brdf(result, info, normal, viewDirection, glossiness);\n  }\n  #endif\n\n  result.diffuse += cc_sceneAmbient;\n\n  return result;\n}\n\nvec4 composePhongShading (Lighting lighting, PhongMaterial mtl) {\n  vec4 o = vec4(0.0, 0.0, 0.0, 1.0);\n\n  \n  o.rgb = lighting.diffuse * mtl.diffuse;\n  \n  #if USE_EMISSIVE\n    o.rgb += mtl.emissive;\n  #endif\n\n  #if USE_SPECULAR\n    o.rgb += lighting.specular * mtl.specular;\n  #endif\n  \n  #if _USE_SHADOW_MAP\n    o.rgb *= computeShadow();\n  #endif\n\n  o.a = mtl.opacity;\n\n  return o;\n}\n\nvoid CALC_PHONG_LIGHTING (inout vec4 outColor, in PhongMaterial material, in vec3 normal, in vec3 worldPosition, in vec3 viewDirection) {\n  Lighting phongLighting = getPhongLighting(normal, worldPosition, viewDirection, glossiness);\n  outColor = composePhongShading(phongLighting, material);\n}\n\nvoid main () {\n  vec4 diffuse;\n  CALC_DIFFUSE(diffuse);\n\n  PhongMaterial material;\n  material.diffuse = diffuse.rgb;\n  material.opacity = diffuse.a;\n\n  material.emissive = vec3(0.0);\n  material.specular = vec3(0.0);\n\n  vec3 viewDirection = normalize(cc_cameraPos.xyz - v_worldPos);\n  vec4 phongColor;\n\n  vec3 normal = vec3(1.);\n  #if GL_OES_standard_derivatives\n    \n    vec3 fdx = vec3( dFdx( v_viewPos.x ), dFdx( v_viewPos.y ), dFdx( v_viewPos.z ) );\n    vec3 fdy = vec3( dFdy( v_viewPos.x ), dFdy( v_viewPos.y ), dFdy( v_viewPos.z ) );\n    normal = normalize( cross( fdx, fdy ) );\n  #endif\n  \n  CALC_PHONG_LIGHTING(phongColor, material, normal, v_worldPos, viewDirection);\n\n  gl_FragColor = LINEAR_TO_OUTPUT_TEXEL( phongColor );\n}\n\n\n",
+        "defines": [
+          {
+            "name": "USE_DIFFUSE_TEXTURE",
+            "type": "boolean",
+            "defines": []
+          },
+          {
+            "name": "USE_EMISSIVE_TEXTURE",
+            "type": "boolean",
+            "defines": [
+              "USE_DIFFUSE_TEXTURE"
+            ]
+          },
+          {
+            "name": "USE_SPECULAR_TEXTURE",
+            "type": "boolean",
+            "defines": [
+              "USE_DIFFUSE_TEXTURE",
+              "USE_EMISSIVE_TEXTURE"
+            ]
+          },
+          {
+            "name": "USE_NORMAL_TEXTURE",
+            "type": "boolean",
+            "defines": [
+              "USE_DIFFUSE_TEXTURE",
+              "USE_EMISSIVE_TEXTURE",
+              "USE_SPECULAR_TEXTURE"
+            ]
+          },
+          {
+            "name": "USE_TILING_OFFSET",
+            "type": "boolean",
+            "defines": []
+          },
+          {
+            "name": "_USE_ATTRIBUTE_UV0",
+            "type": "boolean",
+            "defines": []
+          },
+          {
+            "name": "_USE_ATTRIBUTE_COLOR",
+            "type": "boolean",
+            "defines": []
+          },
+          {
+            "name": "_USE_ATTRIBUTE_NORMAL",
+            "type": "boolean",
+            "defines": []
+          },
+          {
+            "name": "_USE_SHADOW_MAP",
+            "type": "boolean",
+            "defines": []
+          },
+          {
+            "name": "_NUM_SHADOW_LIGHTS",
+            "type": "number",
+            "defines": [
+              "_USE_SHADOW_MAP"
+            ]
+          },
+          {
+            "name": "INPUT_IS_GAMMA",
+            "type": "boolean",
+            "defines": []
+          },
+          {
+            "name": "OUTPUT_TO_GAMMA",
+            "type": "boolean",
+            "defines": []
+          },
+          {
+            "name": "_USE_ETC1_DIFFUSETEXTURE",
+            "type": "boolean",
+            "defines": [
+              "USE_DIFFUSE_TEXTURE",
+              "_USE_ATTRIBUTE_UV0"
+            ]
+          },
+          {
+            "name": "_NUM_DIR_LIGHTS",
+            "type": "number",
+            "defines": []
+          },
+          {
+            "name": "_NUM_POINT_LIGHTS",
+            "type": "number",
+            "defines": []
+          },
+          {
+            "name": "_NUM_SPOT_LIGHTS",
+            "type": "number",
+            "defines": []
+          },
+          {
+            "name": "USE_EMISSIVE",
+            "type": "boolean",
+            "defines": []
+          },
+          {
+            "name": "USE_SPECULAR",
+            "type": "boolean",
+            "defines": []
+          }
+        ],
+        "uniforms": [
+          {
+            "name": "mainTiling",
+            "type": 5,
+            "property": true,
+            "defines": [
+              "USE_TILING_OFFSET",
+              "_USE_ATTRIBUTE_UV0"
+            ]
+          },
+          {
+            "name": "mainOffset",
+            "type": 5,
+            "property": true,
+            "defines": [
+              "USE_TILING_OFFSET",
+              "_USE_ATTRIBUTE_UV0"
+            ]
+          },
+          {
+            "name": "mainTiling",
+            "type": 5,
+            "property": true,
+            "defines": [
+              "USE_TILING_OFFSET",
+              "_USE_ATTRIBUTE_UV0"
+            ]
+          },
+          {
+            "name": "mainOffset",
+            "type": 5,
+            "property": true,
+            "defines": [
+              "USE_TILING_OFFSET",
+              "_USE_ATTRIBUTE_UV0"
+            ]
+          },
+          {
+            "name": "diffuseColor",
+            "type": 9,
+            "property": true,
+            "defines": []
+          },
+          {
+            "name": "diffuseTexture",
+            "type": 13,
+            "property": true,
+            "defines": [
+              "USE_DIFFUSE_TEXTURE"
+            ]
+          },
+          {
+            "name": "glossiness",
+            "type": 4,
+            "property": true,
+            "defines": []
+          }
+        ],
+        "attributes": [
+          {
+            "name": "a_position",
+            "type": 6,
+            "defines": []
+          },
+          {
+            "name": "a_uv0",
+            "type": 5,
+            "defines": [
+              "_USE_ATTRIBUTE_UV0"
+            ]
+          },
+          {
+            "name": "a_color",
+            "type": 7,
+            "defines": [
+              "_USE_ATTRIBUTE_COLOR"
+            ]
+          },
+          {
+            "name": "a_normal",
+            "type": 6,
+            "defines": [
+              "_USE_ATTRIBUTE_NORMAL"
+            ]
+          },
+          {
+            "name": "a_position",
+            "type": 6,
+            "defines": []
+          },
+          {
+            "name": "a_uv0",
+            "type": 5,
+            "defines": [
+              "_USE_ATTRIBUTE_UV0"
+            ]
+          },
+          {
+            "name": "a_color",
+            "type": 7,
+            "defines": [
+              "_USE_ATTRIBUTE_COLOR"
+            ]
+          },
+          {
+            "name": "a_normal",
+            "type": 6,
+            "defines": [
+              "_USE_ATTRIBUTE_NORMAL"
+            ]
+          }
+        ],
+        "extensions": [
+          "OES_standard_derivatives"
+        ],
+        "name": "ce018fd1f99124798d93168c48e94ad67e56e83d7b0828d85afd74e9"
+      },
+      {
+        "vert": "\n#define _IS_VERT_SHADER 1\n\nprecision highp float;\n\nattribute vec3 a_position;\n\nuniform mat4 cc_matWorld;\nuniform mat4 cc_lightViewProjMatrix;\nuniform float cc_minDepth;\nuniform float cc_maxDepth;\nuniform float cc_bias;\nvarying float vDepth;\n\n#if _USE_SKINNING\n\n  attribute vec4 a_weights;\n  attribute vec4 a_joints;\n\n  #if _USE_JOINTS_TEXTRUE\n    uniform sampler2D _jointsTexture;\n    uniform vec2 _jointsTextureSize;\n\n    #if _JOINTS_TEXTURE_FLOAT32\n      mat4 getBoneMatrix(const in float i) {\n        float width = _jointsTextureSize.x;\n        float height = _jointsTextureSize.y;\n        float j = i * 4.0;\n        float x = mod(j, width);\n        float y = floor(j / width);\n\n        float dx = 1.0 / width;\n        float dy = 1.0 / height;\n\n        y = dy * (y + 0.5);\n\n        vec4 v1 = texture2D(_jointsTexture, vec2(dx * (x + 0.5), y));\n        vec4 v2 = texture2D(_jointsTexture, vec2(dx * (x + 1.5), y));\n        vec4 v3 = texture2D(_jointsTexture, vec2(dx * (x + 2.5), y));\n        vec4 v4 = texture2D(_jointsTexture, vec2(dx * (x + 3.5), y));\n\n        return mat4(v1, v2, v3, v4);\n      }\n    #else\n      float decode32(vec4 rgba) {\n        float Sign = 1.0 - step(128.0, rgba[0]) * 2.0;\n        float Exponent = 2.0 * mod(rgba[0], 128.0) + step(128.0, rgba[1]) - 127.0;\n        float Mantissa = mod(rgba[1], 128.0) * 65536.0 + rgba[2] * 256.0 + rgba[3] + 8388608.0;\n        return Sign * exp2(Exponent - 23.0) * Mantissa;\n      }\n      vec4 decodevec4 (vec4 x, vec4 y, vec4 z, vec4 w) {\n        \n        return vec4(\n          decode32(x.wzyx * 255.0),\n          decode32(y.wzyx * 255.0),\n          decode32(z.wzyx * 255.0),\n          decode32(w.wzyx * 255.0)\n        );\n      }\n\n      vec4 decodevec4 (float dx, float x, float y) {\n        return decodevec4(\n          texture2D(_jointsTexture, vec2(dx * (x + 0.5), y)),\n          texture2D(_jointsTexture, vec2(dx * (x + 1.5), y)),\n          texture2D(_jointsTexture, vec2(dx * (x + 2.5), y)),\n          texture2D(_jointsTexture, vec2(dx * (x + 3.5), y))\n        );\n      }\n\n      mat4 getBoneMatrix(const in float i) {\n        float width = _jointsTextureSize.x;\n        float height = _jointsTextureSize.y;\n        float j = i * 16.0;\n        float x = mod(j, width);\n        float y = floor(j / width);\n\n        float dx = 1.0 / width;\n        float dy = 1.0 / height;\n\n        y = dy * (y + 0.5);\n\n        vec4 v1 = decodevec4(dx, x,       y);\n        vec4 v2 = decodevec4(dx, x+4.0,   y);\n        vec4 v3 = decodevec4(dx, x+8.0,   y);\n        vec4 v4 = decodevec4(dx, x+12.0,  y);\n\n        return mat4(v1, v2, v3, v4);\n      }\n    #endif\n  #else\n    const int _JOINT_MATRICES_SIZE = 50;\n    uniform mat4 _jointMatrices[_JOINT_MATRICES_SIZE];\n\n    mat4 getBoneMatrix(const in float i) {\n      return _jointMatrices[int(i)];\n    }\n  #endif\n\n    mat4 skinMatrix() {\n      return\n        getBoneMatrix(a_joints.x) * a_weights.x +\n        getBoneMatrix(a_joints.y) * a_weights.y +\n        getBoneMatrix(a_joints.z) * a_weights.z +\n        getBoneMatrix(a_joints.w) * a_weights.w\n        ;\n    }\n#endif\n\nvoid SKIN_VERTEX(inout vec4 a1) {\n  #if _USE_SKINNING\n    mat4 m = skinMatrix();\n    a1 = m * a1;\n  #endif\n}\n\nvoid SKIN_VERTEX(inout vec4 a1, inout vec4 a2) {\n  #if _USE_SKINNING\n    mat4 m = skinMatrix();\n    a1 = m * a1;\n    a2 = m * a2;\n  #endif\n}\n\nvoid SKIN_VERTEX(inout vec4 a1, inout vec4 a2, inout vec4 a3) {\n  #if _USE_SKINNING\n    mat4 m = skinMatrix();\n    a1 = m * a1;\n    a2 = m * a2;\n    a3 = m * a3;\n  #endif\n}\n\nvoid main () {\n  vec4 position = vec4(a_position, 1);\n\n  SKIN_VERTEX(position);\n\n  gl_Position = cc_lightViewProjMatrix * cc_matWorld * position;\n\n  \n  vDepth = ((gl_Position.z + cc_minDepth) / (cc_minDepth + cc_maxDepth)) + cc_bias;\n}\n\n\n",
+        "frag": "\n#define _IS_FRAG_SHADER 1\n\nprecision highp float;\n\nuniform float cc_depthScale;\nvarying float vDepth;\n\nvec4 packDepthToRGBA(float depth) {\n  vec4 ret = vec4(1.0, 255.0, 65025.0, 160581375.0) * depth;\n  ret = fract(ret);\n  ret -= ret.yzww * vec4(1.0 / 255.0, 1.0 / 255.0, 1.0 / 255.0, 0.0);\n  return ret;\n}\n\nfloat unpackRGBAToDepth(vec4 color) {\n  return dot(color, vec4(1.0, 1.0 / 255.0, 1.0 / 65025.0, 1.0 / 160581375.0));\n}\n\nvoid main () {\n  \n  \n  gl_FragColor = packDepthToRGBA(vDepth);\n  \n  \n}\n\n\n",
+        "defines": [
+          {
+            "name": "_USE_SKINNING",
+            "type": "boolean",
+            "defines": []
+          },
+          {
+            "name": "_USE_JOINTS_TEXTRUE",
+            "type": "boolean",
+            "defines": [
+              "_USE_SKINNING"
+            ]
+          },
+          {
+            "name": "_JOINTS_TEXTURE_FLOAT32",
+            "type": "boolean",
+            "defines": [
+              "_USE_SKINNING",
+              "_USE_JOINTS_TEXTRUE"
+            ]
+          }
+        ],
+        "uniforms": [],
+        "attributes": [
+          {
+            "name": "a_position",
+            "type": 6,
+            "defines": []
+          },
+          {
+            "name": "a_weights",
+            "type": 7,
+            "defines": [
+              "_USE_SKINNING"
+            ]
+          },
+          {
+            "name": "a_joints",
+            "type": 7,
+            "defines": [
+              "_USE_SKINNING"
+            ]
+          }
+        ],
+        "extensions": [],
+        "name": "9a91382f3710c7bfc6b1ac208fac93945dd4609a0e76c9995e1601fd"
+      }
+    ]
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "default_btn_pressed",
+      "texture": "b4P/PCArtIdIH38t6mlw8Y",
+      "rect": [
+        0,
+        0,
+        40,
+        40
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        40,
+        40
+      ],
+      "capInsets": [
+        12,
+        12,
+        12,
+        12
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "default_btn_normal",
+      "texture": "e8Ueib+qJEhL6mXAHdnwbi",
+      "rect": [
+        0,
+        0,
+        40,
+        40
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        40,
+        40
+      ],
+      "capInsets": [
+        12,
+        12,
+        12,
+        12
+      ]
+    }
+  }
+]
